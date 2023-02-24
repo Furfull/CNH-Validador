@@ -6,7 +6,7 @@ namespace CNH
     public class CNHValida
     {
         static void Main() { }
-        public bool Execute(string cnh)
+        static public bool Execute(string cnh)
         {
             string validador = "^[0-9]{11}$";
             Regex re = new Regex(validador);
